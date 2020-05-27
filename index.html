@@ -9,16 +9,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.css">
 
-  <title>Hello, world!</title>
+  <title>Conponent</title>
   <style>
-    .footer {
-      width: 100vw;
-      height: 50vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #000;
-      flex-wrap: wrap;
+    .card{
+      margin-top: 1.5rem;
     }
   </style>
 </head>
@@ -44,7 +38,7 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters">
       <div class="col">
-        <div id="bolas" class="carousel slide vh-100 bg-dark" data-ride="carousel" data-interval="2000">
+        <div id="bolas" class="carousel slide vw-100 bg-dark" data-ride="carousel" data-interval="2000">
           <ol class="carousel-indicators">
             <li data-target="#bolas" data-slide-to="0" class="active"></li>
             <li data-target="#bolas" data-slide-to="1"></li>
@@ -54,7 +48,7 @@
           </ol>
           <div class="carousel-inner h-100">
             <div class="carousel-item w-100 h-100 active" data-interval="5000">
-              <img src="https://picsum.photos/1920/1080/?random=1" class="d-block w-100 h-100" alt="...">
+              <img src="https://picsum.photos/1920/1280/?random=1" class="d-block w-100 h-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>什麼樣資料庫表現</h5>
                 <p>
@@ -63,7 +57,7 @@
               </div>
             </div>
             <div class="carousel-item w-100 h-100" data-interval="3000">
-              <img src="https://picsum.photos/1920/600/?random=2" class="d-block w-100 h-100" alt="...">
+              <img src="https://picsum.photos/1920/1280/?random=2" class="d-block w-100 h-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>總體亞洲，失去見過。</h5>
                 <p>
@@ -72,7 +66,7 @@
               </div>
             </div>
             <div class="carousel-item w-100 h-100">
-              <img src="https://picsum.photos/1920/600/?random=3" class="d-block w-100 h-100" alt="...">
+              <img src="https://picsum.photos/1920/1280/?random=3" class="d-block w-100 h-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>死了幻想支付，電影。</h5>
                 <p>
@@ -81,7 +75,7 @@
               </div>
             </div>
             <div class="carousel-item w-100 h-100" data-interval="7000">
-              <img src="https://picsum.photos/1920/600/?random=4" class="d-block w-100 h-100" alt="...">
+              <img src="https://picsum.photos/1920/1280/?random=4" class="d-block w-100 h-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
                 <h5>戰士重點第二次，爆。</h5>
                 <p>
@@ -102,9 +96,9 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid vh-100 d-flex ">
+  <div class="container-fluid d-flex mt-5 mb-5">
     <div class="row justify-content-center align-items-center">
-      <div class="col-3">
+      <div class="col-12 col-md-3">
         <div class="card">
           <img src="https://picsum.photos/200/150/?random=1" class="card-img-top">
           <div class="card-body">
@@ -115,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3">
         <div class="card">
           <img src="https://picsum.photos/200/150/?random=2" class="card-img-top">
           <div class="card-body">
@@ -126,7 +120,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3">
         <div class="card">
           <img src="https://picsum.photos/200/150/?random=3" class="card-img-top">
           <div class="card-body">
@@ -141,29 +135,29 @@
   </div>
   <div class="container-fluid p-0 m-0">
     <div class="row no-gutters bg-info">
-      <div class="col-6">
-        <img src="https://picsum.photos/1920/1080/?random=1" class="img-fluid">
+      <div class="col-12 col-md-6">
+        <img src="https://picsum.photos/1920/1280/?random=1" class="img-fluid">
       </div>
-      <div class="col-6 text-center align-self-center">
-        <h1>Lorem ipsum dolor sit.</h1>
-        <h2 class="pt-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis at distinctio,
+      <div class="col-12 col-md-6 text-center align-self-center">
+        <h1 class="pt-2">Lorem ipsum dolor sit.</h1>
+        <h4 class="pt-2 pb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis at distinctio,
           id dolores
-          voluptas et praesentium odit rerum officia ab, unde adipisci! Quia quos quaerat eos ex eligendi alias?</h2>
-        <a class="btn btn-success btn-lg text-white">View More</a>
+          voluptas et praesentium odit rerum officia ab, unde adipisci! Quia quos quaerat eos ex eligendi alias?</h4>
+        <a class="btn btn-success btn-lg text-white m-3">View More</a>
       </div>
     </div>
   </div>
   <div class="container-fluid p-0 m-0">
     <div class="row no-gutters bg-warning">
-      <div class="col-6 text-center align-self-center">
-        <h1>Lorem ipsum dolor sit.</h1>
-        <h2 class="pt-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis at distinctio,
-          id dolores
-          voluptas et praesentium odit rerum officia ab, unde adipisci! Quia quos quaerat eos ex eligendi alias?</h2>
-        <a class="btn btn-success btn-lg text-white">View More</a>
+      <div class="col-12 col-md-6">
+        <img src="https://picsum.photos/1920/1280/?random=2" class="img-fluid">
       </div>
-      <div class="col-6">
-        <img src="https://picsum.photos/1920/1080/?random=1" class="img-fluid">
+      <div class="col-12 col-md-6 text-center align-self-center">
+        <h1 class="pt-2">Lorem ipsum dolor sit.</h1>
+        <h4 class="pt-2 pb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis at distinctio,
+          id dolores
+          voluptas et praesentium odit rerum officia ab, unde adipisci! Quia quos quaerat eos ex eligendi alias?</h4>
+        <a class="btn btn-success btn-lg text-white m-3">View More</a>
       </div>
     </div>
   </div>
@@ -183,32 +177,30 @@
       </div>
     </div>
   </div> -->
-  <div class="footer text-white mt-0 pt-0">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-2">
+    <div class="container-fluid pt-5 mt-5 bg-dark text-white">
+      <div class="row justify-content-center no-gutters">
+        <div class="col-6 col-md-3">
           <img src="https://picsum.photos/200/200/?random=1" style="border-radius: 50%;">
         </div>
-        <div class="col-2">
+        <div class="col-6 col-md-2">
           <h4>地址</h4>
           嘗試造成預覽某些比例十二俱樂部正好，
         </div>
-        <div class="col-2">
+        <div class="col-6 col-md-2">
           <h4>Links</h4>
           <a href="#">Website builder</a><br>
           <a href="#">Download for Windows</a><br>
           <a href="#">Download for Mac</a>
         </div>
-        <div class="col-2">
+        <div class="col-6 col-md-2">
           <h4>聯絡方式</h4>
           Email:www@wwwwww.com.tw<br>
           Phone: +1 0 012 345 6789<br>
           Fax: +1 0 987 654 3210
         </div>
       </div>
-      <div class="row justify-content-center">Copyright 2020 Free footer templates - All Right Reserved</div>
+      <div class="row justify-content-center pt-3 pb-3 no-gutters">Copyright 2020 Free footer templates - All Right Reserved</div>
     </div>
-  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
