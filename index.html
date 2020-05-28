@@ -11,8 +11,28 @@
 
   <title>Conponent</title>
   <style>
-    .card{
+    .card {
       margin-top: 1.5rem;
+    }
+
+    .carousel-item img {
+      object-fit: cover;
+    }
+
+    @media (min-width: 768px) {
+      .carousel {
+        height: 100vh !important;
+      }
+
+      .pic-order {
+        order: 13;
+      }
+
+      .pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   </style>
 </head>
@@ -38,7 +58,7 @@
   <div class="container-fluid p-0">
     <div class="row no-gutters">
       <div class="col">
-        <div id="bolas" class="carousel slide vw-100 bg-dark" data-ride="carousel" data-interval="2000">
+        <div id="bolas" class="carousel slide bg-dark" data-ride="carousel" data-interval="2000">
           <ol class="carousel-indicators">
             <li data-target="#bolas" data-slide-to="0" class="active"></li>
             <li data-target="#bolas" data-slide-to="1"></li>
@@ -135,8 +155,8 @@
   </div>
   <div class="container-fluid p-0 m-0">
     <div class="row no-gutters bg-info">
-      <div class="col-12 col-md-6">
-        <img src="https://picsum.photos/1920/1280/?random=1" class="img-fluid">
+      <div class="pic col-12 col-md-6">
+        <img src="https://picsum.photos/1920/1080/?random=1" class="img-fluid">
       </div>
       <div class="col-12 col-md-6 text-center align-self-center">
         <h1 class="pt-2">Lorem ipsum dolor sit.</h1>
@@ -149,8 +169,8 @@
   </div>
   <div class="container-fluid p-0 m-0">
     <div class="row no-gutters bg-warning">
-      <div class="col-12 col-md-6">
-        <img src="https://picsum.photos/1920/1280/?random=2" class="img-fluid">
+      <div class="pic pic-order col-12 col-md-6">
+        <img src="https://picsum.photos/1920/1080/?random=2" class="img-fluid">
       </div>
       <div class="col-12 col-md-6 text-center align-self-center">
         <h1 class="pt-2">Lorem ipsum dolor sit.</h1>
@@ -161,46 +181,32 @@
       </div>
     </div>
   </div>
-    <!-- <div class="row no-gutters bg-light">
-      <div class="col-6 text-center align-self-center">
-        <h1>Lorem ipsum dolor sit.</h1>
-        <h2 class="pt-4 pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, corporis at distinctio,
-          id dolores
-          voluptas et praesentium odit rerum officia ab, unde adipisci! Quia quos quaerat eos ex eligendi alias?</h2>
-        <a class="btn btn-success btn-lg text-white">View More</a>
 
+  <div class="container-fluid pt-5 mt-5 bg-dark text-white">
+    <div class="row justify-content-center no-gutters">
+      <div class="col-6 col-md-3">
+        <img src="https://picsum.photos/200/200/?random=1" style="border-radius: 50%;">
       </div>
-      <div class="col-6">
-        <div class="d-block">
-          <img src="https://picsum.photos/1920/1080/?random=1" class="img-fluid">
-        </div>
+      <div class="col-6 col-md-2">
+        <h4>地址</h4>
+        嘗試造成預覽某些比例十二俱樂部正好，
+      </div>
+      <div class="col-6 col-md-2">
+        <h4>Links</h4>
+        <a href="#">Website builder</a><br>
+        <a href="#">Download for Windows</a><br>
+        <a href="#">Download for Mac</a>
+      </div>
+      <div class="col-6 col-md-2">
+        <h4>聯絡方式</h4>
+        Email:www@wwwwww.com.tw<br>
+        Phone: +1 0 012 345 6789<br>
+        Fax: +1 0 987 654 3210
       </div>
     </div>
-  </div> -->
-    <div class="container-fluid pt-5 mt-5 bg-dark text-white">
-      <div class="row justify-content-center no-gutters">
-        <div class="col-6 col-md-3">
-          <img src="https://picsum.photos/200/200/?random=1" style="border-radius: 50%;">
-        </div>
-        <div class="col-6 col-md-2">
-          <h4>地址</h4>
-          嘗試造成預覽某些比例十二俱樂部正好，
-        </div>
-        <div class="col-6 col-md-2">
-          <h4>Links</h4>
-          <a href="#">Website builder</a><br>
-          <a href="#">Download for Windows</a><br>
-          <a href="#">Download for Mac</a>
-        </div>
-        <div class="col-6 col-md-2">
-          <h4>聯絡方式</h4>
-          Email:www@wwwwww.com.tw<br>
-          Phone: +1 0 012 345 6789<br>
-          Fax: +1 0 987 654 3210
-        </div>
-      </div>
-      <div class="row justify-content-center pt-3 pb-3 no-gutters">Copyright 2020 Free footer templates - All Right Reserved</div>
-    </div>
+    <div class="row justify-content-center pt-3 pb-3 no-gutters">Copyright 2020 Free footer templates - All Right
+      Reserved</div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
